@@ -1,0 +1,11 @@
+
+h1 {color: #073B02}
+.gridcontainer {
+display: grid;
+grid-template-columns: 200px 400px;
+grid-template-rows: 400px 400px;
+}
+
+nav { flex: 1 1 100px; }
+aside { flex: 1 1 100px ; }
+section { flex: 2 2 300px; }

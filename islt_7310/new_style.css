@@ -1,0 +1,229 @@
+h1 {color: #000000;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+body {background-color:#508a68;}
+
+
+
+h4{font-size: 16px;
+    text-align: center;
+        }
+
+table, th, tr, td {
+border: 1px solid;
+
+}
+table {
+    width: 100%;
+}
+
+th {
+    width: 70%;
+    background-color: rgb(112, 146, 240);  
+}
+
+th, td {
+    padding: 10px;
+}
+
+td {
+    background-color: rgb(245, 243, 243);
+}
+
+
+.tab {text-indent: 40px;}
+
+ul{
+    padding-left: 10px;
+}
+
+div {
+    position: relative; 
+    vertical-align:text-bottom;
+    width: auto;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    background-color: #eaebb7;
+  }
+
+.headshot{
+    max-width: 300px;
+
+}
+
+form{
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+  footer {
+      margin: 100px;
+      text-align: center;
+  }
+
+  a {text-align: center;}
+  h3 {text-align: center;}
+  blockquote {text-align: center;}
+
+  @media (min-width: 600px) {
+      p{
+          font-size: 16px;
+      }
+      div{
+          max-width: 500px;
+      }
+      blockquote {
+          font-size: 16px;
+      }
+      nav{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px; 
+      }
+      
+  }
+
+  @media (max-width: 600px) {
+    div{
+        max-width: 400px;
+    }
+    nav{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+      }
+      .Regal{
+        max-width: 200px;
+    }
+}
+    .MUHealth{
+        max-width: 200px;
+    }
+
+    
+    form{
+        font-size: 11px;
+        max-width: 350px;
+        
+    }
+
+  @media (max-width : 480px) {
+    nav {
+      text-align: center;
+      font-size: 10px;
+    }
+    div {
+        max-width: 350px;
+    }
+    footer{
+        min-width: 400px;
+    }
+    .Regal{
+        max-width: 200px;
+    }
+}
+    .MUHealth{
+        max-width: 200px;
+    }
+
+
+
+
+@media print {
+    nav,
+    img {display: none}
+    
+    div{
+        border: none;
+        font-family: Verdana, sans-serif;
+        max-width: none;
+        margin-left: 1in;
+        margin-right: 1in;
+
+    }
+
+    h1{
+        color: black;
+        margin-top: 1in;
+        
+    }
+
+    a{
+        color: black;
+        
+        font-family: Verdana, sans-serif;
+    }
+
+    p{
+        font-family: Verdana, sans-serif;
+        font-size: larger;
+        text-align: left;
+    }
+
+    h3{
+        text-align: left;
+        
+        font-family: Verdana, sans-serif;
+    }
+
+    blockquote{
+        text-align: left;
+        margin-left: 1in;
+        margin-right: 1in;
+        font-family: Verdana, sans-serif;
+    }
+
+    footer{
+        text-align: left;
+        margin-bottom: 1in;
+        font-family: Verdana, sans-serif;
+        max-width: none;
+    }
+
+
+}
+
+.small{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.big{
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.5s linear 0s;
+    transition: width 0.5s linear 0s; 
+    z-index: 12;
+}
+
+.small:hover + .big{
+    width: 50px;
+}
+
+
+
+h5{
+    font-size: 18px;
+}
+
+
+@media (min-width: 600px) {
+    p{
+        font-size: 18px;
+    }
+    div{
+        max-width: 500px;
+    }
+    blockquote {
+        font-size: 25px;
+    }
+    nav{
+      margin: 0 auto;
+      text-align: center;
+      font-size: 20px; 
+    }
+}
+    
